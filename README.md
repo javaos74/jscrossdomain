@@ -13,14 +13,14 @@ app/static/script.js 에서 cross-domain 호출시 ip 주소를 변경해줘야 
 # 사용하기 
 우선 해당 repo를 clone을 통해서 내려 받고 (git clone https://github.com/javaos74/jscrossdomain) 
 기본 domain에서 run.py를 실행함 (8088 port로 접속 가능)
-'''python
+```python
 #python run.py 
-''' 
+``` 
 
 이후에 다른 ip에서 otherdomain에 있는 app.py를 실행(5500 port로 접속 가능) 
-'''python
+```python
 #python app.py
-''''
+```
 
 기본 domain에서 app/static/script.js 파일에서 내용을 otherdomain ip주소만 수정함 
 
